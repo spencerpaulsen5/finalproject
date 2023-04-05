@@ -1,0 +1,60 @@
+html{
+    max-width: 1200px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav{
+    font-family: 'Pacifico', cursive;
+}
+header img:hover{
+    width: 25px;
+    height: 25px;
+
+}
+/*This is for the navigation styling*/
+ul{
+    list-style-type: none;
+    padding-right: 30px;
+}
+a:hover{
+    color: brown;
+}
+li{
+    display: inline;
+}
+/*This is for the paragraph between the photos and the nav*/
+.opening{
+    font-size: 2em;
+}
+
+/*This is for aligning the photos*/
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    
+}
+img{
+   
+    padding: 10px;
+}
+
+
+@media screen and (min-width: 500px) {
+    
+   
+
+}
+
+
+@media screen and (min-width: 800px) {
+    html{
+        margin-left: 120px;
+    }
+}
