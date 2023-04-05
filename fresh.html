@@ -28,38 +28,36 @@
         </ul>
     </nav>
     <p class="opening">
-        <em><strong> Where Quality and price don't have to compromise!</strong></em>
+        <em><strong> Where Your Fresh dreams become reality!</strong></em>
     </p>
 
-    <picture class="picture">
-        <img src="images/pineapple.jpg" alt="pineapple">
-        <img src="images/strawberry.jpg" alt="strawberry">
-        <img src="images/fruitmix.jpg" alt="mixture of fruit">
-        <img src="images/grapefruitberry.jpg" alt="grapefruit drink">
-        <img src="images/strawberrysmoothie.jpg" alt="strawberry smoothie">
-        <img src="images/dublin.jpg" alt="dublin drink">
-    </picture>
-
-    <br>
-
-    <a href="fresh.html"><button>Make a Drink</button></a>
-
-    <h1>Your Recent Drinks</h1>
-        <p>
-            Javascript will need to be used here to retieve previous entries
-        </p>
-    <!----This is where the 3-day forcast will go-->
-
-    <h1>Southern California Coast</h1>
-        <p>The current temperature in Southern California is <span id="current-temp"></span> &deg;F</p>
-        <h2>Current Condition Icon</h2>
-        <figure>
-          <img src="" alt="" id="weather-icon" />
-          <figcaption></figcaption>
-        </figure>
-        </p>
+    <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your first name..." required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="johndoe@gmail.com" required>
+        <br>
+        <br>
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number.." required>
+        <br>
+        <br>
+        <label for="apple">Apple</label>
+        <input type="checkbox" id="fruit" name="fruit" >
+        <label for="mango">Mango</label>
+        <input type="checkbox" id="fruit" name="fruit" >
+        <label for="Rasberry">Rasberry</label>
+        <input type="checkbox" id="fruit" name="fruit" >
+        <label for="strawberry">strawberry</label>
+        <input type="checkbox" id="fruit" name="fruit" >
+        <label for="bananna">Bananna</label>
+        <input type="checkbox" id="fruit" name="fruit" >
+        <br>
+        <br>
+        <input type="submit" value="submit"
+    </form>
 </body>
 <footer>
-    <script src="scripts/weather.js"></script>
+
 </footer>
 </html>
